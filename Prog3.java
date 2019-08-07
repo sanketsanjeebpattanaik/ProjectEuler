@@ -1,6 +1,6 @@
 public class Prog3
   {
-    public static void main(String [] args)
+    public static void main()
       {
         long num=600851475143L;
         int i=2;
