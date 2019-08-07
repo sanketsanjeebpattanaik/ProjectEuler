@@ -1,6 +1,6 @@
 public class Prog4
   {
-    public static void main(String [] args)
+    public static void main ()
       {
         int pro=0,i=0,j=0,rev=0,max=0,d=0,bk;
         for(i=100;i<=999;i++)
