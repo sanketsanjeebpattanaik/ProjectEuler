@@ -1,6 +1,6 @@
 public class Prog1
 {
-  public static void main(String [] args)
+  public static void main()
    {
       int i=0,sum=0;
       for(i=0;i<1000;i++)
