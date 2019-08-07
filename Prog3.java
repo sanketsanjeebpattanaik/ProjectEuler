@@ -1,6 +1,6 @@
 public class Prog3
   {
-    public static void main(string [] args)
+    public static void main(String [] args)
       {
         long num=600851475143L;
         int i=2;
@@ -11,6 +11,6 @@ public class Prog3
                 num=num/i;
               }
           }
-         system.out.println("The largest prime factor of the number 600851475143="+(i-1));
+         System.out.println("The largest prime factor of the number 600851475143="+(i-1));
        }
     }
