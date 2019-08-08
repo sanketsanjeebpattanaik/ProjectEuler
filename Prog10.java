@@ -20,7 +20,7 @@ public class Prob10
                 sum=sum+i;
                 flag=0;
             }
-            System.out.println("Sum of all primes less than 2000000 is :"+sum);
+            System.out.println("The sum of all the primes below two million="+sum);
         }
     }
 }
