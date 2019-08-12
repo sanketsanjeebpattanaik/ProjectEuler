@@ -1,23 +1,24 @@
 public class prog10
 {
-    public static void main()
-    {
-        int i=0,j=0,ctr=0,sum=0;
-        for(i=1;i<=2000000;i++)
-        {
-            for(j=1;j<i;j++)
-            {
+	public static void main()
+	{
+	   int j=0,i=0,flag=0;
+           long sum=2; 
+	   for(i=3;i<2000000;i=i+2)
+	   {
+		
+	    for(j=3;j*j<=i;j=j+2)
+	    {
                 if(i%j==0)
-                {
-                    ctr++;
-                }
+                {		
+		   flag=1;
+                   break;	
+	        }
+	        flag=0;
             }
-            if(ctr==2)
-            {
-                sum=sum+i;
-            }
-            ctr=0;
-        }
+            if(flag==0)
+	     sum=sum+i;
+        }        
         System.out.println("The sum of all the primes below two million="+sum);
-    }
-}
+   }    
+} 
