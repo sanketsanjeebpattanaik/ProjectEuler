@@ -11,9 +11,9 @@ public class Prog4
                 bk=pro;
                 while(pro!=0)
                   {
-                    d=prod%10;
+                    d=pro%10;
                     rev=rev*10+d;
-                    pro+pro/10;
+                    pro=pro/10;
                   }
                     if(bk==rev)
                      {
