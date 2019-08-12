@@ -1,4 +1,4 @@
-public class Prob7 
+public class Prog7 
 {
     public static void main()
 	{
