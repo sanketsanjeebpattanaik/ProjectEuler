@@ -30,7 +30,9 @@ public class Prog9
                 break;
             }
         }
-        System.out.println(a+" "+b+" "+c+" "+pro);
+        System.out.println("The value of a="+a);
+        System.out.println("The value of b="+b);
+        System.out.println("The value of c="+c);
+        System.out.println("The product of abc="+pro);
     }
 }
-                    
